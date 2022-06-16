@@ -1,0 +1,5 @@
+C:\Users\shiro\Desktop\QLTV\QLTV\DTO\bin\Debug\DTO.dll
+C:\Users\shiro\Desktop\QLTV\QLTV\DTO\bin\Debug\DTO.pdb
+C:\Users\shiro\Desktop\QLTV\QLTV\DTO\obj\Debug\DTO.dll
+C:\Users\shiro\Desktop\QLTV\QLTV\DTO\obj\Debug\DTO.pdb
+C:\Users\shiro\Desktop\QLTV\QLTV\DTO\bin\Debug\DTO.dll.config

@@ -1,0 +1,7 @@
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\bin\Debug\BLL.dll
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\bin\Debug\BLL.pdb
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\bin\Debug\DAL.dll
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\bin\Debug\DAL.pdb
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\obj\Debug\BLL.dll
+C:\Users\shiro\Desktop\QLTV\QLTV\BLL\obj\Debug\BLL.pdb
