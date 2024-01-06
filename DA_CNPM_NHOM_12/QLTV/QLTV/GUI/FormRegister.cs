@@ -61,6 +61,7 @@ namespace GUI
                 dn.USERNAME = username;
                 dn.MATKHAU = password;
                 dn.HOTEN = hoten;
+                dn.QUYEN = "user";
                 nv.HOTEN = hoten;
                 nv.USERNAME = username;
                 nv.NGAYVAOLAM = DateTime.Today;

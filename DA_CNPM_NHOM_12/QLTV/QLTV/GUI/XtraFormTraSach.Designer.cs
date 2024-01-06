@@ -65,18 +65,18 @@
             // 
             // simpleButtonKiemTraDocGia
             // 
-            this.simpleButtonKiemTraDocGia.Location = new System.Drawing.Point(283, 83);
+            this.simpleButtonKiemTraDocGia.Location = new System.Drawing.Point(330, 83);
             this.simpleButtonKiemTraDocGia.Name = "simpleButtonKiemTraDocGia";
-            this.simpleButtonKiemTraDocGia.Size = new System.Drawing.Size(32, 23);
+            this.simpleButtonKiemTraDocGia.Size = new System.Drawing.Size(37, 23);
             this.simpleButtonKiemTraDocGia.TabIndex = 34;
             this.simpleButtonKiemTraDocGia.Text = "KT";
             this.simpleButtonKiemTraDocGia.Click += new System.EventHandler(this.simpleButtonKiemTraDocGia_Click);
             // 
             // simpleButtonXacNhanTra
             // 
-            this.simpleButtonXacNhanTra.Location = new System.Drawing.Point(727, 468);
+            this.simpleButtonXacNhanTra.Location = new System.Drawing.Point(848, 468);
             this.simpleButtonXacNhanTra.Name = "simpleButtonXacNhanTra";
-            this.simpleButtonXacNhanTra.Size = new System.Drawing.Size(179, 23);
+            this.simpleButtonXacNhanTra.Size = new System.Drawing.Size(209, 23);
             this.simpleButtonXacNhanTra.TabIndex = 33;
             this.simpleButtonXacNhanTra.Text = "Xác nhận trả và in phiếu";
             this.simpleButtonXacNhanTra.Click += new System.EventHandler(this.simpleButtonXacNhanTra_Click);
@@ -86,24 +86,24 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(663, 26);
+            this.label6.Location = new System.Drawing.Point(773, 26);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
+            this.label6.Size = new System.Drawing.Size(70, 13);
             this.label6.TabIndex = 30;
             this.label6.Text = "Sách sẽ trả";
             // 
             // textBoxTenDocGiaTra
             // 
-            this.textBoxTenDocGiaTra.Location = new System.Drawing.Point(115, 83);
+            this.textBoxTenDocGiaTra.Location = new System.Drawing.Point(134, 83);
             this.textBoxTenDocGiaTra.Name = "textBoxTenDocGiaTra";
-            this.textBoxTenDocGiaTra.Size = new System.Drawing.Size(162, 21);
+            this.textBoxTenDocGiaTra.Size = new System.Drawing.Size(188, 21);
             this.textBoxTenDocGiaTra.TabIndex = 27;
             // 
             // textBoxThuThuMuonTra
             // 
-            this.textBoxThuThuMuonTra.Location = new System.Drawing.Point(115, 115);
+            this.textBoxThuThuMuonTra.Location = new System.Drawing.Point(134, 115);
             this.textBoxThuThuMuonTra.Name = "textBoxThuThuMuonTra";
-            this.textBoxThuThuMuonTra.Size = new System.Drawing.Size(162, 21);
+            this.textBoxThuThuMuonTra.Size = new System.Drawing.Size(188, 21);
             this.textBoxThuThuMuonTra.TabIndex = 26;
             // 
             // label5
@@ -111,31 +111,31 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(29, 118);
+            this.label5.Location = new System.Drawing.Point(34, 118);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 13);
+            this.label5.Size = new System.Drawing.Size(87, 13);
             this.label5.TabIndex = 25;
             this.label5.Text = "Thủ thư mượn";
             // 
             // textBoxMaDocGiaTra
             // 
-            this.textBoxMaDocGiaTra.Location = new System.Drawing.Point(115, 50);
+            this.textBoxMaDocGiaTra.Location = new System.Drawing.Point(134, 50);
             this.textBoxMaDocGiaTra.Name = "textBoxMaDocGiaTra";
-            this.textBoxMaDocGiaTra.Size = new System.Drawing.Size(100, 21);
+            this.textBoxMaDocGiaTra.Size = new System.Drawing.Size(116, 21);
             this.textBoxMaDocGiaTra.TabIndex = 24;
             // 
             // dateTimePickerNgayTraTra
             // 
-            this.dateTimePickerNgayTraTra.Location = new System.Drawing.Point(115, 222);
+            this.dateTimePickerNgayTraTra.Location = new System.Drawing.Point(134, 222);
             this.dateTimePickerNgayTraTra.Name = "dateTimePickerNgayTraTra";
-            this.dateTimePickerNgayTraTra.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePickerNgayTraTra.Size = new System.Drawing.Size(233, 21);
             this.dateTimePickerNgayTraTra.TabIndex = 23;
             // 
             // dateTimePickerNgayMuonTra
             // 
-            this.dateTimePickerNgayMuonTra.Location = new System.Drawing.Point(115, 185);
+            this.dateTimePickerNgayMuonTra.Location = new System.Drawing.Point(134, 185);
             this.dateTimePickerNgayMuonTra.Name = "dateTimePickerNgayMuonTra";
-            this.dateTimePickerNgayMuonTra.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePickerNgayMuonTra.Size = new System.Drawing.Size(233, 21);
             this.dateTimePickerNgayMuonTra.TabIndex = 22;
             // 
             // label4
@@ -143,9 +143,9 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(29, 228);
+            this.label4.Location = new System.Drawing.Point(34, 228);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
+            this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 21;
             this.label4.Text = "Hạn trả";
             // 
@@ -154,9 +154,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(29, 191);
+            this.label3.Location = new System.Drawing.Point(34, 191);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 13);
+            this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 20;
             this.label3.Text = "Ngày mượn";
             // 
@@ -165,9 +165,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(29, 86);
+            this.label2.Location = new System.Drawing.Point(34, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 19;
             this.label2.Text = "Tên độc giả";
             // 
@@ -176,17 +176,17 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(29, 53);
+            this.label1.Location = new System.Drawing.Point(34, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 18;
             this.label1.Text = "Mã độc giả";
             // 
             // textBoxMaPhieuMuon
             // 
-            this.textBoxMaPhieuMuon.Location = new System.Drawing.Point(115, 18);
+            this.textBoxMaPhieuMuon.Location = new System.Drawing.Point(134, 18);
             this.textBoxMaPhieuMuon.Name = "textBoxMaPhieuMuon";
-            this.textBoxMaPhieuMuon.Size = new System.Drawing.Size(100, 21);
+            this.textBoxMaPhieuMuon.Size = new System.Drawing.Size(116, 21);
             this.textBoxMaPhieuMuon.TabIndex = 36;
             // 
             // label7
@@ -194,27 +194,28 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(29, 21);
+            this.label7.Location = new System.Drawing.Point(34, 21);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 13);
+            this.label7.Size = new System.Drawing.Size(94, 13);
             this.label7.TabIndex = 35;
             this.label7.Text = "Mã phiếu mượn";
             // 
             // textBoxPhatTienTra
             // 
-            this.textBoxPhatTienTra.Location = new System.Drawing.Point(177, 264);
+            this.textBoxPhatTienTra.Location = new System.Drawing.Point(206, 264);
             this.textBoxPhatTienTra.Name = "textBoxPhatTienTra";
-            this.textBoxPhatTienTra.Size = new System.Drawing.Size(138, 21);
+            this.textBoxPhatTienTra.Size = new System.Drawing.Size(160, 21);
             this.textBoxPhatTienTra.TabIndex = 38;
+            this.textBoxPhatTienTra.TextChanged += new System.EventHandler(this.textBoxPhatTienTra_TextChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(29, 267);
+            this.label8.Location = new System.Drawing.Point(34, 267);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(140, 13);
+            this.label8.Size = new System.Drawing.Size(161, 13);
             this.label8.TabIndex = 37;
             this.label8.Text = "Phạt tiền trả quá hạn (VND)";
             // 
@@ -227,9 +228,9 @@
             this.TENSACH,
             this.IDPHIEUMUON,
             this.PHIEUMUON});
-            this.dataGridViewSachTra.Location = new System.Drawing.Point(666, 50);
+            this.dataGridViewSachTra.Location = new System.Drawing.Point(777, 50);
             this.dataGridViewSachTra.Name = "dataGridViewSachTra";
-            this.dataGridViewSachTra.Size = new System.Drawing.Size(240, 215);
+            this.dataGridViewSachTra.Size = new System.Drawing.Size(280, 215);
             this.dataGridViewSachTra.TabIndex = 39;
             this.dataGridViewSachTra.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSachTra_CellContentClick);
             // 
@@ -269,9 +270,9 @@
             // 
             // textBoxThuThuTraTra
             // 
-            this.textBoxThuThuTraTra.Location = new System.Drawing.Point(115, 148);
+            this.textBoxThuThuTraTra.Location = new System.Drawing.Point(134, 148);
             this.textBoxThuThuTraTra.Name = "textBoxThuThuTraTra";
-            this.textBoxThuThuTraTra.Size = new System.Drawing.Size(162, 21);
+            this.textBoxThuThuTraTra.Size = new System.Drawing.Size(188, 21);
             this.textBoxThuThuTraTra.TabIndex = 41;
             // 
             // label9
@@ -279,9 +280,9 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(29, 151);
+            this.label9.Location = new System.Drawing.Point(34, 151);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 13);
+            this.label9.Size = new System.Drawing.Size(71, 13);
             this.label9.TabIndex = 40;
             this.label9.Text = "Thủ thư trả";
             // 
@@ -291,9 +292,9 @@
             this.dataGridViewDSMuon.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DOCGIA,
             this.NHANVIEN});
-            this.dataGridViewDSMuon.Location = new System.Drawing.Point(21, 303);
+            this.dataGridViewDSMuon.Location = new System.Drawing.Point(24, 303);
             this.dataGridViewDSMuon.Name = "dataGridViewDSMuon";
-            this.dataGridViewDSMuon.Size = new System.Drawing.Size(885, 159);
+            this.dataGridViewDSMuon.Size = new System.Drawing.Size(1032, 159);
             this.dataGridViewDSMuon.TabIndex = 42;
             this.dataGridViewDSMuon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDSMuon_CellContentClick);
             // 
@@ -314,9 +315,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(881, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(1028, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox1.Size = new System.Drawing.Size(58, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 43;
             this.pictureBox1.TabStop = false;
@@ -324,11 +325,11 @@
             // 
             // XtraFormTraSach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayoutStore = System.Windows.Forms.ImageLayout.Stretch;
             this.BackgroundImageStore = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImageStore")));
-            this.ClientSize = new System.Drawing.Size(930, 504);
+            this.ClientSize = new System.Drawing.Size(1085, 504);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridViewDSMuon);
             this.Controls.Add(this.textBoxThuThuTraTra);

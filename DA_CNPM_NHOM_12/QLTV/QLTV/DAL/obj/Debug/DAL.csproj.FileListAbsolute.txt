@@ -15,3 +15,23 @@ C:\Users\nphon\Downloads\New folder\NguyenThanhPhong_3001190615\QLTV\QLTV\DAL\ob
 C:\Users\nphon\Downloads\New folder\NguyenThanhPhong_3001190615\QLTV\QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\nphon\Downloads\New folder\NguyenThanhPhong_3001190615\QLTV\QLTV\DAL\obj\Debug\DAL.dll
 C:\Users\nphon\Downloads\New folder\NguyenThanhPhong_3001190615\QLTV\QLTV\DAL\obj\Debug\DAL.pdb
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\bin\Debug\DAL.dll
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\bin\Debug\DAL.pdb
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\bin\Debug\DTO.dll
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\bin\Debug\DTO.pdb
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\bin\Debug\DTO.dll.config
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\obj\Debug\DAL.dll
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\obj\Debug\DAL.pdb
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\bin\Debug\DAL.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\bin\Debug\DAL.pdb
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\bin\Debug\DTO.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\bin\Debug\DTO.pdb
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\bin\Debug\DTO.dll.config
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\obj\Debug\DAL.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DAL\obj\Debug\DAL.pdb

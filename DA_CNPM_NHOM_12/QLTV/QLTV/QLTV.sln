@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.33919.361
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{82360266-1D50-457E-8D2A-8AE7F8F5006C}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{98041092-DA7E-4BC9-A641-ECF346A68537}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{CE94AD30-C985-4FB5-81E2-F9119FA85544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestQLTV", "UnitTestQLTV\UnitTestQLTV.csproj", "{DA8CAFFD-4E3F-4F9D-89BE-F8952115FD2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{CE94AD30-C985-4FB5-81E2-F9119FA85544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE94AD30-C985-4FB5-81E2-F9119FA85544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE94AD30-C985-4FB5-81E2-F9119FA85544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8CAFFD-4E3F-4F9D-89BE-F8952115FD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8CAFFD-4E3F-4F9D-89BE-F8952115FD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8CAFFD-4E3F-4F9D-89BE-F8952115FD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8CAFFD-4E3F-4F9D-89BE-F8952115FD2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8DACC4D-E591-4661-A37F-CD599C0E190B}
 	EndGlobalSection
 EndGlobal

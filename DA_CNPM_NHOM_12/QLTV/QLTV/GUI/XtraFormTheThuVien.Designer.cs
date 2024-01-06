@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XtraFormTheThuVien));
-            this.simpleButtonTimDocGia = new DevExpress.XtraEditors.SimpleButton();
             this.comboBoxGioiTinhDocGia = new System.Windows.Forms.ComboBox();
             this.simpleButtonXoaDocGia = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButtonCapNhatDocGia = new DevExpress.XtraEditors.SimpleButton();
@@ -65,46 +64,37 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // simpleButtonTimDocGia
-            // 
-            this.simpleButtonTimDocGia.Location = new System.Drawing.Point(435, 347);
-            this.simpleButtonTimDocGia.Name = "simpleButtonTimDocGia";
-            this.simpleButtonTimDocGia.Size = new System.Drawing.Size(75, 23);
-            this.simpleButtonTimDocGia.TabIndex = 48;
-            this.simpleButtonTimDocGia.Text = "Tìm";
-            this.simpleButtonTimDocGia.Click += new System.EventHandler(this.simpleButtonTimDocGia_Click);
-            // 
             // comboBoxGioiTinhDocGia
             // 
             this.comboBoxGioiTinhDocGia.FormattingEnabled = true;
-            this.comboBoxGioiTinhDocGia.Location = new System.Drawing.Point(199, 205);
+            this.comboBoxGioiTinhDocGia.Location = new System.Drawing.Point(232, 205);
             this.comboBoxGioiTinhDocGia.Name = "comboBoxGioiTinhDocGia";
-            this.comboBoxGioiTinhDocGia.Size = new System.Drawing.Size(82, 21);
+            this.comboBoxGioiTinhDocGia.Size = new System.Drawing.Size(95, 21);
             this.comboBoxGioiTinhDocGia.TabIndex = 46;
             // 
             // simpleButtonXoaDocGia
             // 
-            this.simpleButtonXoaDocGia.Location = new System.Drawing.Point(718, 347);
+            this.simpleButtonXoaDocGia.Location = new System.Drawing.Point(838, 347);
             this.simpleButtonXoaDocGia.Name = "simpleButtonXoaDocGia";
-            this.simpleButtonXoaDocGia.Size = new System.Drawing.Size(75, 23);
+            this.simpleButtonXoaDocGia.Size = new System.Drawing.Size(87, 23);
             this.simpleButtonXoaDocGia.TabIndex = 41;
             this.simpleButtonXoaDocGia.Text = "Xoá";
             this.simpleButtonXoaDocGia.Click += new System.EventHandler(this.simpleButtonXoaDocGia_Click);
             // 
             // simpleButtonCapNhatDocGia
             // 
-            this.simpleButtonCapNhatDocGia.Location = new System.Drawing.Point(532, 347);
+            this.simpleButtonCapNhatDocGia.Location = new System.Drawing.Point(621, 347);
             this.simpleButtonCapNhatDocGia.Name = "simpleButtonCapNhatDocGia";
-            this.simpleButtonCapNhatDocGia.Size = new System.Drawing.Size(75, 23);
+            this.simpleButtonCapNhatDocGia.Size = new System.Drawing.Size(87, 23);
             this.simpleButtonCapNhatDocGia.TabIndex = 40;
             this.simpleButtonCapNhatDocGia.Text = "Cập nhật";
             this.simpleButtonCapNhatDocGia.Click += new System.EventHandler(this.simpleButtonCapNhatDocGia_Click);
             // 
             // simpleButtonThemDocGia
             // 
-            this.simpleButtonThemDocGia.Location = new System.Drawing.Point(622, 347);
+            this.simpleButtonThemDocGia.Location = new System.Drawing.Point(726, 347);
             this.simpleButtonThemDocGia.Name = "simpleButtonThemDocGia";
-            this.simpleButtonThemDocGia.Size = new System.Drawing.Size(75, 23);
+            this.simpleButtonThemDocGia.Size = new System.Drawing.Size(87, 23);
             this.simpleButtonThemDocGia.TabIndex = 39;
             this.simpleButtonThemDocGia.Text = "Thêm";
             this.simpleButtonThemDocGia.Click += new System.EventHandler(this.simpleButtonThemDocGia_Click);
@@ -112,25 +102,26 @@
             // labelControl8
             // 
             this.labelControl8.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl8.Location = new System.Drawing.Point(83, 357);
+            this.labelControl8.Location = new System.Drawing.Point(97, 357);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(72, 13);
+            this.labelControl8.Size = new System.Drawing.Size(86, 13);
             this.labelControl8.TabIndex = 38;
             this.labelControl8.Text = "Tìm tên độc giả";
             // 
             // textEditTimDocGia
             // 
-            this.textEditTimDocGia.Location = new System.Drawing.Point(199, 350);
+            this.textEditTimDocGia.Location = new System.Drawing.Point(232, 350);
             this.textEditTimDocGia.Name = "textEditTimDocGia";
-            this.textEditTimDocGia.Size = new System.Drawing.Size(204, 20);
+            this.textEditTimDocGia.Size = new System.Drawing.Size(238, 20);
             this.textEditTimDocGia.TabIndex = 37;
+            this.textEditTimDocGia.EditValueChanged += new System.EventHandler(this.textEditTimDocGia_EditValueChanged);
             // 
             // labelControl7
             // 
             this.labelControl7.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl7.Location = new System.Drawing.Point(123, 306);
+            this.labelControl7.Location = new System.Drawing.Point(143, 306);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(32, 13);
+            this.labelControl7.Size = new System.Drawing.Size(38, 13);
             this.labelControl7.TabIndex = 36;
             this.labelControl7.Text = "Địa chỉ";
             this.labelControl7.Click += new System.EventHandler(this.labelControl7_Click);
@@ -138,148 +129,148 @@
             // labelControl6
             // 
             this.labelControl6.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl6.Location = new System.Drawing.Point(763, 166);
+            this.labelControl6.Location = new System.Drawing.Point(890, 166);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(61, 13);
+            this.labelControl6.Size = new System.Drawing.Size(67, 13);
             this.labelControl6.TabIndex = 35;
             this.labelControl6.Text = "CMND/CCCD";
             // 
             // textEditCMNDDocGia
             // 
-            this.textEditCMNDDocGia.Location = new System.Drawing.Point(830, 159);
+            this.textEditCMNDDocGia.Location = new System.Drawing.Point(968, 159);
             this.textEditCMNDDocGia.Name = "textEditCMNDDocGia";
-            this.textEditCMNDDocGia.Size = new System.Drawing.Size(144, 20);
+            this.textEditCMNDDocGia.Size = new System.Drawing.Size(168, 20);
             this.textEditCMNDDocGia.TabIndex = 33;
             // 
             // labelControl4
             // 
             this.labelControl4.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl4.Location = new System.Drawing.Point(764, 124);
+            this.labelControl4.Location = new System.Drawing.Point(891, 124);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(29, 13);
+            this.labelControl4.Size = new System.Drawing.Size(33, 13);
             this.labelControl4.TabIndex = 32;
             this.labelControl4.Text = "Số ĐT";
             // 
             // textEditTenDocGia
             // 
-            this.textEditTenDocGia.Location = new System.Drawing.Point(199, 159);
+            this.textEditTenDocGia.Location = new System.Drawing.Point(232, 159);
             this.textEditTenDocGia.Name = "textEditTenDocGia";
-            this.textEditTenDocGia.Size = new System.Drawing.Size(204, 20);
+            this.textEditTenDocGia.Size = new System.Drawing.Size(238, 20);
             this.textEditTenDocGia.TabIndex = 31;
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl3.Location = new System.Drawing.Point(123, 205);
+            this.labelControl3.Location = new System.Drawing.Point(143, 205);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(38, 13);
+            this.labelControl3.Size = new System.Drawing.Size(46, 13);
             this.labelControl3.TabIndex = 30;
             this.labelControl3.Text = "Giới tính";
             // 
             // labelControl2
             // 
             this.labelControl2.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl2.Location = new System.Drawing.Point(123, 162);
+            this.labelControl2.Location = new System.Drawing.Point(143, 162);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(55, 13);
+            this.labelControl2.Size = new System.Drawing.Size(64, 13);
             this.labelControl2.TabIndex = 29;
             this.labelControl2.Text = "Tên độc giả";
             // 
             // labelControl1
             // 
             this.labelControl1.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl1.Location = new System.Drawing.Point(123, 114);
+            this.labelControl1.Location = new System.Drawing.Point(143, 114);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(47, 13);
+            this.labelControl1.Size = new System.Drawing.Size(55, 13);
             this.labelControl1.TabIndex = 28;
             this.labelControl1.Text = "Mã số thẻ";
             // 
             // dataGridViewDocGia
             // 
             this.dataGridViewDocGia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDocGia.Location = new System.Drawing.Point(193, 405);
+            this.dataGridViewDocGia.Location = new System.Drawing.Point(225, 405);
             this.dataGridViewDocGia.Name = "dataGridViewDocGia";
-            this.dataGridViewDocGia.Size = new System.Drawing.Size(699, 175);
+            this.dataGridViewDocGia.Size = new System.Drawing.Size(815, 175);
             this.dataGridViewDocGia.TabIndex = 27;
-            this.dataGridViewDocGia.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDocGia_CellContentClick);
+            this.dataGridViewDocGia.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDocGia_CellClick);
             // 
             // labelControl5
             // 
             this.labelControl5.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl5.Location = new System.Drawing.Point(123, 262);
+            this.labelControl5.Location = new System.Drawing.Point(143, 262);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(47, 13);
+            this.labelControl5.Size = new System.Drawing.Size(54, 13);
             this.labelControl5.TabIndex = 49;
             this.labelControl5.Text = "Ngày sinh";
             // 
             // textEditMaSoThe
             // 
-            this.textEditMaSoThe.Location = new System.Drawing.Point(199, 117);
+            this.textEditMaSoThe.Location = new System.Drawing.Point(232, 117);
             this.textEditMaSoThe.Name = "textEditMaSoThe";
-            this.textEditMaSoThe.Size = new System.Drawing.Size(70, 20);
+            this.textEditMaSoThe.Size = new System.Drawing.Size(82, 20);
             this.textEditMaSoThe.TabIndex = 51;
             // 
             // textEditDiaChiDocGia
             // 
-            this.textEditDiaChiDocGia.Location = new System.Drawing.Point(199, 303);
+            this.textEditDiaChiDocGia.Location = new System.Drawing.Point(232, 303);
             this.textEditDiaChiDocGia.Name = "textEditDiaChiDocGia";
-            this.textEditDiaChiDocGia.Size = new System.Drawing.Size(417, 20);
+            this.textEditDiaChiDocGia.Size = new System.Drawing.Size(486, 20);
             this.textEditDiaChiDocGia.TabIndex = 52;
             // 
             // labelControl9
             // 
             this.labelControl9.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl9.Location = new System.Drawing.Point(764, 213);
+            this.labelControl9.Location = new System.Drawing.Point(891, 213);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(42, 13);
+            this.labelControl9.Size = new System.Drawing.Size(48, 13);
             this.labelControl9.TabIndex = 53;
             this.labelControl9.Text = "Ngày lập";
             // 
             // labelControl10
             // 
             this.labelControl10.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl10.Location = new System.Drawing.Point(764, 260);
+            this.labelControl10.Location = new System.Drawing.Point(891, 260);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(61, 13);
+            this.labelControl10.Size = new System.Drawing.Size(70, 13);
             this.labelControl10.TabIndex = 54;
             this.labelControl10.Text = "Hạn sử dụng";
             this.labelControl10.Click += new System.EventHandler(this.labelControl10_Click);
             // 
             // textEditSDTDocGia
             // 
-            this.textEditSDTDocGia.Location = new System.Drawing.Point(830, 117);
+            this.textEditSDTDocGia.Location = new System.Drawing.Point(968, 117);
             this.textEditSDTDocGia.Name = "textEditSDTDocGia";
-            this.textEditSDTDocGia.Size = new System.Drawing.Size(144, 20);
+            this.textEditSDTDocGia.Size = new System.Drawing.Size(168, 20);
             this.textEditSDTDocGia.TabIndex = 57;
             // 
             // dateTimePickerNgayLap
             // 
-            this.dateTimePickerNgayLap.Location = new System.Drawing.Point(830, 205);
+            this.dateTimePickerNgayLap.Location = new System.Drawing.Point(968, 205);
             this.dateTimePickerNgayLap.Name = "dateTimePickerNgayLap";
-            this.dateTimePickerNgayLap.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePickerNgayLap.Size = new System.Drawing.Size(233, 21);
             this.dateTimePickerNgayLap.TabIndex = 59;
             this.dateTimePickerNgayLap.ValueChanged += new System.EventHandler(this.dateTimePickerNgayLap_ValueChanged);
             // 
             // dateTimePickerHanSuDung
             // 
-            this.dateTimePickerHanSuDung.Location = new System.Drawing.Point(830, 254);
+            this.dateTimePickerHanSuDung.Location = new System.Drawing.Point(968, 254);
             this.dateTimePickerHanSuDung.Name = "dateTimePickerHanSuDung";
-            this.dateTimePickerHanSuDung.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePickerHanSuDung.Size = new System.Drawing.Size(233, 21);
             this.dateTimePickerHanSuDung.TabIndex = 60;
             // 
             // dateTimePickerNgaySinhDocGia
             // 
-            this.dateTimePickerNgaySinhDocGia.Location = new System.Drawing.Point(199, 254);
+            this.dateTimePickerNgaySinhDocGia.Location = new System.Drawing.Point(232, 254);
             this.dateTimePickerNgaySinhDocGia.Name = "dateTimePickerNgaySinhDocGia";
-            this.dateTimePickerNgaySinhDocGia.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePickerNgaySinhDocGia.Size = new System.Drawing.Size(233, 21);
             this.dateTimePickerNgaySinhDocGia.TabIndex = 61;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1029, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(1200, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox1.Size = new System.Drawing.Size(58, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 62;
             this.pictureBox1.TabStop = false;
@@ -289,11 +280,11 @@
             // 
             this.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.Appearance.Options.UseBackColor = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayoutStore = System.Windows.Forms.ImageLayout.Stretch;
             this.BackgroundImageStore = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImageStore")));
-            this.ClientSize = new System.Drawing.Size(1080, 615);
+            this.ClientSize = new System.Drawing.Size(1260, 615);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateTimePickerNgaySinhDocGia);
             this.Controls.Add(this.dateTimePickerHanSuDung);
@@ -304,7 +295,6 @@
             this.Controls.Add(this.textEditDiaChiDocGia);
             this.Controls.Add(this.textEditMaSoThe);
             this.Controls.Add(this.labelControl5);
-            this.Controls.Add(this.simpleButtonTimDocGia);
             this.Controls.Add(this.comboBoxGioiTinhDocGia);
             this.Controls.Add(this.simpleButtonXoaDocGia);
             this.Controls.Add(this.simpleButtonCapNhatDocGia);
@@ -338,8 +328,6 @@
         }
 
         #endregion
-
-        private DevExpress.XtraEditors.SimpleButton simpleButtonTimDocGia;
         private System.Windows.Forms.ComboBox comboBoxGioiTinhDocGia;
         private DevExpress.XtraEditors.SimpleButton simpleButtonXoaDocGia;
         private DevExpress.XtraEditors.SimpleButton simpleButtonCapNhatDocGia;

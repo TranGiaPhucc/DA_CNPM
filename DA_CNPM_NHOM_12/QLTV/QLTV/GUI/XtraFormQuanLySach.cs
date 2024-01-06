@@ -141,27 +141,28 @@ namespace GUI
 
         private void simpleButtonTimSach_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textEditTimSach.Text) == true)
-                reload();
-            else
-            {
-                string s = textEditTimSach.Text;
-                var z = (from u in db.SACHes where u.TENSACH.Equals(s) select u).FirstOrDefault();
-                if (z == null)
-                {
-                    MessageBox.Show("Không có sách này.");
-                    reload();
-                }
-                else
-                {
-                    dataGridViewSach.DataSource = db.SACHes.Where(t => t.TENSACH == s);
-                }
-            }
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void textEditTimSach_EditValueChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textEditTimSach.Text) == true)
+            {
+                var datasource = from h in db.SACHes select h;
+                dataGridViewSach.DataSource = datasource;
+            }
+            else
+            {
+                string s = textEditTimSach.Text;
+                var z = from u in db.SACHes where u.TENSACH.Contains(s) select u;
+                if (z != null)
+                    dataGridViewSach.DataSource = z;
+            }
         }
     }
 }

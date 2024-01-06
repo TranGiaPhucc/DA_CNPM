@@ -66,7 +66,7 @@ namespace DTO
     #endregion
 		
 		public DatabaseDataContext() : 
-				base(global::DTO.Properties.Settings.Default.QLTHUVIENConnectionString, mappingSource)
+				base(global::DTO.Properties.Settings.Default.QLTHUVIENConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}
@@ -600,7 +600,7 @@ namespace DTO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DIACHI", DbType="NVarChar(50)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DIACHI", DbType="NVarChar(MAX)")]
 		public string DIACHI
 		{
 			get
@@ -1197,7 +1197,7 @@ namespace DTO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DIACHI", DbType="NVarChar(50)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DIACHI", DbType="NVarChar(MAX)")]
 		public string DIACHI
 		{
 			get

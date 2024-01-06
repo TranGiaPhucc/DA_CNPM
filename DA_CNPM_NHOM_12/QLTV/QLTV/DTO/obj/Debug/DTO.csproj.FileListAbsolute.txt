@@ -3,3 +3,17 @@ C:\Users\shiro\Desktop\QLTV\QLTV\DTO\bin\Debug\DTO.pdb
 C:\Users\shiro\Desktop\QLTV\QLTV\DTO\obj\Debug\DTO.dll
 C:\Users\shiro\Desktop\QLTV\QLTV\DTO\obj\Debug\DTO.pdb
 C:\Users\shiro\Desktop\QLTV\QLTV\DTO\bin\Debug\DTO.dll.config
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\bin\Debug\DTO.dll.config
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\bin\Debug\DTO.dll
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\bin\Debug\DTO.pdb
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\obj\Debug\DTO.dll
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\obj\Debug\DTO.pdb
+D:\EdiskGame\DA_CNPM_NHOM_12\QLTV\QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\bin\Debug\DTO.dll.config
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\bin\Debug\DTO.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\bin\Debug\DTO.pdb
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\obj\Debug\DTO.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\DTO\obj\Debug\DTO.pdb

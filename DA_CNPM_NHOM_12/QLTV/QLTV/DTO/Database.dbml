@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLTHUVIEN" Class="DatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-96MF1DFE;Initial Catalog=QLTHUVIEN;Integrated Security=True" SettingsObjectName="DTO.Properties.Settings" SettingsPropertyName="QLTHUVIENConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PHUC\MSSQLSERVER01;Initial Catalog=QLTHUVIEN;Persist Security Info=True;User ID=sa" SettingsObjectName="DTO.Properties.Settings" SettingsPropertyName="QLTHUVIENConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.CHITIETPHIEUMUON" Member="CHITIETPHIEUMUONs">
     <Type Name="CHITIETPHIEUMUON">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -22,7 +22,7 @@
       <Column Name="NGAYSINH" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="SODT" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
       <Column Name="CMND" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
-      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
       <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="HANSUDUNG" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Association Name="DOCGIA_PHIEUMUON" Member="PHIEUMUONs" ThisKey="IDMASOTHE" OtherKey="IDMATHEDOCGIA" Type="PHIEUMUON" />
@@ -53,7 +53,7 @@
     <Type Name="NHAXUATBAN">
       <Column Name="TENNXB" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="SODT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
-      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
       <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="WEBSITE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
     </Type>

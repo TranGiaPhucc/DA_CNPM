@@ -39,12 +39,18 @@ namespace GUI
             String username = XtraFormMainThuThu.userName;
 
             NHANVIEN nv = db.NHANVIENs.Where(t => t.USERNAME == username).FirstOrDefault();
-            labelControlHoTenNV.Text = nv.HOTEN;
-            labelControlNgaySinhNV.Text = nv.NGAYSINH.Value.ToShortDateString();
-            labelControlGioiTinhNV.Text = nv.GIOITINH;
-            labelControlSDTNV.Text = nv.SODT;
-            labelControlCMNDNV.Text = nv.CMND;
-            labelControlNgayVaoLam.Text = nv.NGAYVAOLAM.Value.ToShortDateString();
+            if (nv.HOTEN != null)
+                labelControlHoTenNV.Text = nv.HOTEN;
+            if (nv.NGAYSINH != null)
+                labelControlNgaySinhNV.Text = nv.NGAYSINH.Value.ToShortDateString();
+            if (nv.GIOITINH != null)
+                labelControlGioiTinhNV.Text = nv.GIOITINH;
+            if (nv.SODT != null)
+                labelControlSDTNV.Text = nv.SODT;
+            if (nv.CMND != null)
+                labelControlCMNDNV.Text = nv.CMND;
+            if (nv.NGAYVAOLAM != null)
+                labelControlNgayVaoLam.Text = nv.NGAYVAOLAM.Value.ToShortDateString();
         }
 
         private void XtraFormThongTinCaNhan_Load(object sender, EventArgs e)

@@ -152,7 +152,7 @@ namespace GUI
                 {
                     MessageBox.Show("Độc giả này vẫn đang mượn sách nên không thể cho mượn thêm.");
                 }
-                else if (dataGridViewDSSachChon.Rows.Count == 0)
+                else if (dataGridViewDSSachChon.Rows.Count == 1)
                 {
                     MessageBox.Show("Chưa có sách.");
                 }

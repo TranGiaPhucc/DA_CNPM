@@ -1,0 +1,14 @@
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\UnitTestQLTV.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\UnitTestQLTV.pdb
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\obj\Debug\UnitTestQLTV.csprojAssemblyReference.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\obj\Debug\UnitTestQLTV.csproj.CoreCompileInputs.cache
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\obj\Debug\UnitTestQLTV.csproj.CopyComplete
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\obj\Debug\UnitTestQLTV.dll
+C:\Users\shiro\Desktop\QuanLyThuVien\QLTV\QLTV\UnitTestQLTV\obj\Debug\UnitTestQLTV.pdb

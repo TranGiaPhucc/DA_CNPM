@@ -37,6 +37,8 @@ namespace GUI
             var gt = from x in db.GIOITINHs select x;
             comboBoxGioiTinhDocGia.DataSource = gt;
             comboBoxGioiTinhDocGia.ValueMember = "GIOITINH1";
+
+            dateTimePickerHanSuDung.Text = DateTime.Today.AddDays(365).ToString();
         }
 
         private void labelControl7_Click(object sender, EventArgs e)
@@ -47,44 +49,6 @@ namespace GUI
         private void labelControl10_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void dataGridViewDocGia_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            textEditMaSoThe.Text = dataGridViewDocGia.CurrentRow.Cells[0].Value.ToString();
-            textEditTenDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[1].Value.ToString();
-            comboBoxGioiTinhDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[2].Value.ToString();
-            
-            dateTimePickerNgaySinhDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[3].Value.ToString();
-            //dg.NGAYLAP = DateTime.Today;
-            //dg.HANSUDUNG = DateTime.Today.AddDays(365);
-            
-            textEditSDTDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[4].Value.ToString();
-            textEditCMNDDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[5].Value.ToString();
-            textEditDiaChiDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[6].Value.ToString();
-
-            dateTimePickerNgayLap.Text = dataGridViewDocGia.CurrentRow.Cells[7].Value.ToString();
-            dateTimePickerHanSuDung.Text = dataGridViewDocGia.CurrentRow.Cells[8].Value.ToString();
-        }
-
-        private void simpleButtonTimDocGia_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(textEditTimDocGia.Text) == true)
-                reload();
-            else
-            {
-                string s = textEditTimDocGia.Text;
-                var z = (from u in db.DOCGIAs where u.HOTEN.Equals(s) select u).FirstOrDefault();
-                if (z == null)
-                {
-                    MessageBox.Show("Không có độc giả này.");
-                    reload();
-                }
-                else
-                {
-                    dataGridViewDocGia.DataSource = db.DOCGIAs.Where(t => t.HOTEN == s);
-                }
-            }
         }
 
         private void simpleButtonThemDocGia_Click(object sender, EventArgs e)
@@ -151,6 +115,38 @@ namespace GUI
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void dataGridViewDocGia_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textEditMaSoThe.Text = dataGridViewDocGia.CurrentRow.Cells[0].Value.ToString();
+            textEditTenDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[1].Value.ToString();
+            comboBoxGioiTinhDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[2].Value.ToString();
+
+            dateTimePickerNgaySinhDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[3].Value.ToString();
+
+            textEditSDTDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[4].Value.ToString();
+            textEditCMNDDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[5].Value.ToString();
+            textEditDiaChiDocGia.Text = dataGridViewDocGia.CurrentRow.Cells[6].Value.ToString();
+
+            dateTimePickerNgayLap.Text = dataGridViewDocGia.CurrentRow.Cells[7].Value.ToString();
+            dateTimePickerHanSuDung.Text = dataGridViewDocGia.CurrentRow.Cells[8].Value.ToString();
+        }
+
+        private void textEditTimDocGia_EditValueChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textEditTimDocGia.Text) == true)
+            {
+                var datasource = from h in db.DOCGIAs select h;
+                dataGridViewDocGia.DataSource = datasource;
+            }
+            else
+            {
+                string s = textEditTimDocGia.Text;
+                var z = from u in db.DOCGIAs where u.HOTEN.Contains(s) select u;
+                if (z != null)
+                    dataGridViewDocGia.DataSource = z;
+            }
         }
     }
 }

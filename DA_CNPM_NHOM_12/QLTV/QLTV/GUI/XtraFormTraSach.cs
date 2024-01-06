@@ -197,5 +197,10 @@ namespace GUI
             var ds = db.CHITIETPHIEUMUONs.Where(t => t.IDPHIEUMUON == int.Parse(textBoxMaPhieuMuon.Text));
             dataGridViewSachTra.DataSource = ds;
         }
+
+        private void textBoxPhatTienTra_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
